@@ -1,0 +1,84 @@
+.cate-image{
+    width: 100px;
+}
+
+.form-select{
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Estilos personalizados para la paginación de Bootstrap */
+.pagination {
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.pagination .page-item {
+    margin: 0 5px!important;
+    font-size: 16px !important; /* Tamaño de fuente personalizado */
+}
+
+.pagination .page-link {
+    color: #007bff!important;/* Color del enlace personalizado */
+    background-color: #fff!important;/* Fondo del enlace personalizado */
+    border: 1px solid #007bff!important; /* Borde del enlace personalizado */
+    padding: 5px 10px!important; /* Espaciado interior personalizado */
+    border-radius: 3px!important; /* Borde redondeado personalizado */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff!important; /* Fondo del enlace activo personalizado */
+    border-color: #007bff!important;/* Borde del enlace activo personalizado */
+    color: #fff!important; /* Color del texto del enlace activo personalizado */
+}
+
+/* Estilo para el contador de notificaciones */
+.notification-count {
+    position: relative;
+    top: -10px; /* Ajusta la posición vertical según tus necesidades */
+    right: -10px; /* Ajusta la posición horizontal según tus necesidades */
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* CSS personalizado para el menú desplegable */
+.custom-dropdown {
+    max-width: 200px !important ; /* Ajusta el ancho máximo según tus necesidades */
+    width: auto !important; /* Opcional: ajusta el ancho automáticamente según el contenido */
+}
+
+.dropdown-menu {
+
+    min-width: 1rem !important;
+
+}
+
+/* Personaliza el estilo de la lista de notificaciones */
+#notificationsDropdown .dropdown-menu {
+    min-width: 250px !important; /* Ancho mínimo del menú */
+    right: 0 !important; /* Alinea el menú a la derecha */
+}
+
+/* Alinea el contenido a la izquierda del menú de notificaciones */
+#notificationsDropdown .dropdown-item {
+    text-align: left !important;
+}
+
+/* Estilo de los ítems de notificación */
+#notificationsDropdown .dropdown-item:hover {
+    background-color: #f8f9fa !important; /* Cambia el color de fondo al pasar el ratón */
+}
